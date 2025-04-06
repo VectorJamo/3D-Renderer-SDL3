@@ -1,2 +1,5 @@
-C:\Users\nsura\Desktop\Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\main.cpp;C:\Users\nsura\Desktop\Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\x64\Debug\main.obj
-C:\Users\nsura\Desktop\Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\renderer\BasicRenderer.cpp;C:\Users\nsura\Desktop\Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\x64\Debug\BasicRenderer.obj
+C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\main.cpp;C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\x64\Debug\main.obj
+C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\maths\mat4.cpp;C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\x64\Debug\mat4.obj
+C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\maths\vec3.cpp;C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\x64\Debug\vec3.obj
+C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\maths\vec4.cpp;C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\x64\Debug\vec4.obj
+C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\renderer\BasicRenderer.cpp;C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\x64\Debug\BasicRenderer.obj

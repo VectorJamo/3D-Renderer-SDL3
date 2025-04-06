@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\",
+  "WorkspaceRootPath": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|solutionrelative:3D-Renderer-SDL3\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\maths\\mat4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|solutionrelative:3D-Renderer-SDL3\\src\\maths\\mat4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|solutionrelative:3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|solutionrelative:3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\maths\\mat4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{77F8872A-3B47-4641-8676-167EBA69C09A}|3D-Renderer-SDL3\\3D-Renderer-SDL3.vcxproj|solutionrelative:3D-Renderer-SDL3\\src\\maths\\mat4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasicRenderer.h",
-              "DocumentMoniker": "C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
-              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
-              "ToolTip": "C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
-              "RelativeToolTip": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-05T16:40:26.108Z",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\main.cpp",
+              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\main.cpp",
+              "RelativeToolTip": "3D-Renderer-SDL3\\src\\main.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-05T16:08:46.279Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BasicRenderer.cpp",
-              "DocumentMoniker": "C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
-              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
-              "ToolTip": "C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
-              "RelativeToolTip": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-05T16:40:13.46Z",
+              "Title": "BasicRenderer.h",
+              "DocumentMoniker": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
+              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
+              "ToolTip": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
+              "RelativeToolTip": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-06T01:20:09.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\main.cpp",
-              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\main.cpp",
-              "ToolTip": "C:\\Users\\nsura\\Desktop\\Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\main.cpp",
-              "RelativeToolTip": "3D-Renderer-SDL3\\src\\main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BasicRenderer.cpp",
+              "DocumentMoniker": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
+              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
+              "ToolTip": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
+              "RelativeToolTip": "3D-Renderer-SDL3\\src\\renderer\\BasicRenderer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-05T16:08:46.279Z",
+              "WhenOpened": "2025-04-06T01:20:09.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "mat4.h",
+              "DocumentMoniker": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\maths\\mat4.h",
+              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\maths\\mat4.h",
+              "ToolTip": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\maths\\mat4.h",
+              "RelativeToolTip": "3D-Renderer-SDL3\\src\\maths\\mat4.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-05T23:44:28.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mat4.cpp",
+              "DocumentMoniker": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\maths\\mat4.cpp",
+              "RelativeDocumentMoniker": "3D-Renderer-SDL3\\src\\maths\\mat4.cpp",
+              "ToolTip": "C:\\Users\\nsura\\OneDrive\\Desktop\\Projects\\C\u002B\u002B Projects\\3D-Renderer-SDL3\\3D-Renderer-SDL3\\src\\maths\\mat4.cpp",
+              "RelativeToolTip": "3D-Renderer-SDL3\\src\\maths\\mat4.cpp",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-05T23:45:02.396Z",
               "EditorCaption": ""
             }
           ]

@@ -131,9 +131,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\maths\mat4.cpp" />
+    <ClCompile Include="src\maths\vec3.cpp" />
+    <ClCompile Include="src\maths\vec4.cpp" />
     <ClCompile Include="src\renderer\BasicRenderer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\maths\mat4.h" />
+    <ClInclude Include="src\maths\vec3.h" />
+    <ClInclude Include="src\maths\vec4.h" />
     <ClInclude Include="src\renderer\BasicRenderer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

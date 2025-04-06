@@ -2,12 +2,17 @@
 
 #include <cassert>
 
-struct Triangle
+Vertex::Vertex()
+	:x(0), y(0), z(0)
 {
-	Vertex vertices[3];
-};
+}
 
-void BR_Render(SDL_Renderer* renderer, int renderMode, Vertex* vertices, int vertexCount, SDL_Color* color)
+Vertex::Vertex(float x, float y, float z)
+	:x(x), y(y), z(z)
+{
+}
+
+void BR_Draw(SDL_Renderer* renderer, int renderMode, Vertex* vertices, int vertexCount, SDL_Color* color)
 {
 	SDL_SetRenderDrawColor(renderer, color->r, color->g, color->b, color->a);
 	switch (renderMode)

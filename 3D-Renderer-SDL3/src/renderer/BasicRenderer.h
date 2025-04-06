@@ -8,6 +8,9 @@
 struct Vertex
 {
 	float x, y, z;
+
+	Vertex();
+	Vertex(float x, float y, float z);
 };
 
-void BR_Render(SDL_Renderer* renderer, int renderMode, Vertex* vertices, int vertexCount, SDL_Color* color);
+void BR_Draw(SDL_Renderer* renderer, int renderMode, Vertex* vertices, int vertexCount, SDL_Color* color);
