@@ -7,6 +7,10 @@
 
 #include "renderer/BasicRenderer.h"
 
+#include "utilities/logger.h"
+
+LOG_ONCE_ENABLED;
+
 int main(int argc, char** argv)
 {
 	bool status = SDL_Init(SDL_INIT_VIDEO);
@@ -69,6 +73,9 @@ int main(int argc, char** argv)
 	sml::vec3 cameraPosition(0.0f, 0.0f, 0.0f);
 	sml::vec3 cameraDirection(0.0f, 0.0f, -1.0f);
 	sml::vec3 worldUp(0.0f, 1.0f, 0.0f);
+	float cameraSpeed = 0.01f;
+
+	float rotationValue = 0.0f;
 
 	bool running = true;
 	while (running)
@@ -87,6 +94,25 @@ int main(int argc, char** argv)
 		SDL_RenderClear(renderer);
 
 		// Update
+		const bool* keyState = SDL_GetKeyboardState(NULL);
+		if (keyState[SDL_SCANCODE_W])
+		{
+			cameraPosition.y += cameraSpeed;
+		}
+		if (keyState[SDL_SCANCODE_S])
+		{
+			cameraPosition.y -= cameraSpeed;
+		}
+		if (keyState[SDL_SCANCODE_A])
+		{
+			cameraPosition.x -= cameraSpeed;
+		}
+		if (keyState[SDL_SCANCODE_D])
+		{
+			cameraPosition.x += cameraSpeed;
+		}
+
+
 		memcpy(transformed, vertices, sizeof(vertices));
 		for (int i = 0; i < 6 * 6; i++)
 		{
@@ -94,20 +120,27 @@ int main(int argc, char** argv)
 			// Local Space to World Space
 			sml::vec3 currentVertex(transformed[i].x, transformed[i].y, transformed[i].z);
 
-			sml::mat4 translationMatrix = sml::mat4::CreateTranslationMatrix(0.0f, 0.0f, -2.0f);
+			sml::mat4 scaleMatrix = sml::mat4::CreateScaleMatrix(10.0f, 10.0f, 10.0f);
+			sml::mat4 translationMatrix = sml::mat4::CreateTranslationMatrix(0.0f, 0.0f, -50.0f);
 			sml::mat4 rotationMatrix = sml::mat4::CreateRotationMatrix(SDL_GetTicks()/20, sml::vec3(1.0f, 0.0f, 0.0f));
 
-			sml::vec4 worldSpaceVector = rotationMatrix * sml::vec4(currentVertex.x, currentVertex.y, currentVertex.z);
+			sml::vec4 worldSpaceVector = scaleMatrix * sml::vec4(currentVertex.x, currentVertex.y, currentVertex.z);
+			worldSpaceVector = rotationMatrix * worldSpaceVector;
 			worldSpaceVector = translationMatrix * worldSpaceVector;
 
 			// World Space to View Space
+			sml::vec3 cameraTarget = cameraPosition + cameraDirection;
+
+			sml::mat4 viewMatrix = sml::mat4::CreateLookAtMatrix(cameraPosition, cameraTarget, worldUp);
+			sml::vec4 viewSpaceVector = viewMatrix * worldSpaceVector;
 
 			// View Space to Projected Space (and to NDC)
-			sml::mat4 projectionMatrix = sml::mat4::CreatePerspective(-1.0f, 1.0f, 1.0f, -1.0f, -0.1f, -10.0f);
-			std::cout << projectionMatrix << std::endl;
+			sml::mat4 projectionMatrix = sml::mat4::CreatePerspective(60.0f, 1.33f, -20.0f, -100.0f);
+			//sml::mat4 projectionMatrix = sml::mat4::CreatePerspective(-32.0f, 32.0f, 20.0f, -20.0f, -20.0f, -100.0f);
+			LOG_ONCE(projectionMatrix);
+
 			// Perform division by Z
-			sml::vec4 projectedVector = projectionMatrix * worldSpaceVector;
-			std::cout << projectedVector.w << std::endl;
+			sml::vec4 projectedVector = projectionMatrix * viewSpaceVector;
 			projectedVector.x /= projectedVector.w;
 			projectedVector.y /= projectedVector.w;
 			projectedVector.z /= projectedVector.w;
@@ -119,10 +152,6 @@ int main(int argc, char** argv)
 			
 			sml::vec4 transformedVector = NDCToViewport * sml::vec4(transformed[i].x, transformed[i].y, transformed[i].z);
 			transformed[i] = Vertex(transformedVector.x, transformedVector.y, transformedVector.z);
-			if (i == 1)
-			{
-				std::cout << transformed[i].x << ", " << transformed[i].y << std::endl;
-			}
 		}
 
 		// Draw
@@ -131,6 +160,8 @@ int main(int argc, char** argv)
 
 		// Show
 		SDL_RenderPresent(renderer);
+
+		FRAME_END;
 	}
 
 	return 0;

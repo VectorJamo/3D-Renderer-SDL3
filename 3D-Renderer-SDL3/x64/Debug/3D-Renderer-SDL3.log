@@ -1,3 +1,5 @@
 ﻿  main.cpp
-C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\main.cpp(95,77): warning C4244: 'argument': conversion from 'Uint64' to 'float', possible loss of data
+C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\3D-Renderer-SDL3\src\main.cpp(125,77): warning C4244: 'argument': conversion from 'Uint64' to 'float', possible loss of data
+  mat4.cpp
+  Generating Code...
   3D-Renderer-SDL3.vcxproj -> C:\Users\nsura\OneDrive\Desktop\Projects\C++ Projects\3D-Renderer-SDL3\x64\Debug\3D-Renderer-SDL3.exe

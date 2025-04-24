@@ -31,6 +31,7 @@ void BR_Draw(SDL_Renderer* renderer, int renderMode, Vertex* vertices, int verte
 			Vertex vert1 = vertices[i];
 			Vertex vert2 = vertices[i + 1];
 			Vertex vert3 = vertices[i + 2];
+			
 
 			// Draw line vert1-vert2 then vert2-vert3 and finally vert3-vert1
 			SDL_RenderLine(renderer, vert1.x, vert1.y, vert2.x, vert2.y);

@@ -20,10 +20,15 @@ namespace sml {
 		vec3();
 		vec3(float x, float y, float z);
 
-		vec3 operator+(const vec3& another);
-		vec3 operator-(const vec3& another);
-		vec3 operator*(const vec3& another);
-		
+		static vec3 CrossProduct(const vec3& vec1, const vec3& vec2);
+
+		vec3 operator+(const vec3& another) const;
+		vec3 operator-(const vec3& another) const;
+		vec3 operator*(const vec3& another) const;
+		vec3 operator*(float scalar) const;
+
+		float GetMagnitude() const;
+		vec3 GetNormalized() const;
 		vec3* GetLocation();
 	};
 
